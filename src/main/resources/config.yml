@@ -1,0 +1,5 @@
+language: en_US
+server:
+  javaPort: 25565
+  bedrockPort: 19132
+  enableFloodgate: true
