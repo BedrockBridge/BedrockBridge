@@ -1,0 +1,12 @@
+name: BedrockBridge
+version: 1.0
+main: com.xpocketmc.bridge.Main
+api-version: 1.19
+commands:
+  bedrockbridge:
+    description: Main command for the plugin
+    permission: bedrockbridge.admin
+permissions:
+  bedrockbridge.admin:
+    description: Allows using BedrockBridge admin commands
+    default: op
